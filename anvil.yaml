@@ -31,13 +31,14 @@ services:
   client_config: {}
   server_config: {}
 cta: {preset: feedback_form_welcome}
-package_name: Feedback_Form_1
+startup: {type: form, module: Form3}
+package_name: Bai3
 allow_embedding: false
-name: Feedback Form 1
+name: Bai3
 runtime_options: {version: 2, server_version: python3-sandbox, client_version: '3',
   server_spec: null}
 metadata: {}
-startup_form: HomeForm
+startup_form: null
 db_schema:
   feedback:
     client: none
